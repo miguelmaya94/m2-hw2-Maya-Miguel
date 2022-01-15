@@ -10,17 +10,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
-<nav><ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-</ul>
-    </nav>
-
-
-
 <body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those deal's' below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+
     <header>
         <h2>Welcome, Please take a look at our galleria.</h2>
     </header>
@@ -28,20 +34,21 @@
 
     <div class="container">
         <div class="row row-cols-2">
-            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase"><h1>Column<h1>  <img src="img/hw2-image1.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image2.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column   <img src="img/hw2-image3.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image4.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image5.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image6.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image7.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image8.png" /></div>
-            <div class="col shadow p-3 mb-5 bg-white rounded">Column  <img src="img/hw2-image9.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>  <img src="img/hw2-image1.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>  <img src="img/hw2-image2.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>   <img src="img/hw2-image3.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>  <img src="img/hw2-image4.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column </h1> <img src="img/hw2-image5.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>  <img src="img/hw2-image6.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column </h1> <img src="img/hw2-image7.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column</h1>  <img src="img/hw2-image8.png" /></div>
+            <div class="col shadow p-3 mb-5 bg-white rounded text-uppercase text-center"><h1>Column  </h1><img src="img/hw2-image9.png" /></div>
         </div>
     </div>
 
 
     <footer>&copy;UF2022</footer>
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <script>$('.alert').alert()</script>
 </body>
 </html>
